@@ -1,10 +1,7 @@
 import * as React from 'react';
-
 import { Avatar, Box, Typography } from '@mui/material';
-
 import Autocomplete from '@mui/material/Autocomplete';
 import TextField from '@mui/material/TextField';
-import { deepOrange } from '@mui/material/colors';
 
 function InputBar({ userData, addUser }) {
     return (

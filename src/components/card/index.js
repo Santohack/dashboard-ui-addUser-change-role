@@ -2,7 +2,6 @@ import { Avatar, Box, IconButton, Menu, MenuItem, Typography } from '@mui/materi
 
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import React from 'react';
-import { deepOrange } from '@mui/material/colors';
 
 const Cards = ({ name, des, role, updateRole }) => {
   const [anchorEl, setAnchorEl] = React.useState(null);
